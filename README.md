@@ -346,10 +346,25 @@ python -m pytest tests/test_data_quality.py tests/test_visualization.py \
 
 ## 📸 Screenshots
 
-> *Screenshots coming soon. To add your own:*
-> 1. Run the app with a sample dataset
-> 2. Take screenshots of the EDA dashboard, anomaly results, and Ask Your Data chat
-> 3. Add images to a `/screenshots` folder and reference them here
+### Upload & Dataset Detection
+![Upload and large dataset detection](screenshots/01_upload.png)
+
+### Data Quality Analysis
+![Data quality — missing values, duplicate rows](screenshots/02_data_quality.png)
+
+### Quality Checks — Empty, Constant & High Cardinality Columns
+![Empty, constant, high cardinality and mixed-type column checks](screenshots/03_data_quality_checks.png)
+
+### Date Analysis
+![Date range analysis across all datetime columns](screenshots/04_date_analysis.png)
+
+### Automated Insights
+![Automated insights panel with AI report generation](screenshots/05_automated_insights.png)
+
+### Additional Views
+![Application view](screenshots/06_app_screenshot.png)
+
+![Application view](screenshots/07_app_screenshot.png)
 
 ---
 
